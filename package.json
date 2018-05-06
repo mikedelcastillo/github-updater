@@ -1,0 +1,16 @@
+{
+  "name": "github-updater",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike del Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^5.0.1",
+    "git-state": "^4.0.0"
+  }
+}
