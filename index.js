@@ -9,11 +9,11 @@ const e = command => {
     console.log(`RUNNING: ${command}`)
     exec(command, {maxBuffer: 1024 * 100000}, (err, stout, sterr) => {
       if(err){
-        console.log(err, sterr);
+        console.log(command, err, sterr);
         resolve(stout);
         // reject(err, sterr);
       } else{
-        console.log(stout);
+        console.log(command, stout);
         resolve(stout);
       }
     });
